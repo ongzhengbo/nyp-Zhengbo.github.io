@@ -18,7 +18,6 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">01_ZhengBo_230490J_A2</div>
       </div>
@@ -119,6 +118,7 @@
                 fullscreenButton.onclick = () => {
                   unityInstance.SetFullscreen(1);
                 };
+		unityInstance.SetFullscreen(1);
               }).catch((message) => {
                 alert(message);
               });
